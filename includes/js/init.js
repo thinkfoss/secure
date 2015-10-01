@@ -33,9 +33,9 @@ $(document).ready(function() {
 if (jQuery.isFunction(jQuery.fn.countDown)) {
 $('#qcEventCountDown').countDown({
 	targetDate: {
-		'day': 		31,
-		'month': 	12,
-		'year': 	2014,
+		'day': 		8,
+		'month': 	1,
+		'year': 	2016,
 		'hour': 	0,
 		'min': 		0,
 		'sec': 		0
@@ -244,7 +244,7 @@ $('.qcForm').submit(function() {
 			var formInput = $(this).serialize();
 			var hideForm = $(this);
 			$.post($(this).attr('action'),formInput, function(data){
-				$(hideForm).slideUp( "fast", function() {				   
+				$(hideForm).slideUp( "fast", function() {
 					$(this).before( '<br/><p class="info">Thanks! Your email was successfully sent.</p>' );
 				});
 			});
@@ -349,7 +349,7 @@ if (document.getElementById('qcContactMap')) {
 	google.maps.event.addListener(marker, 'click', function() {
 		infowindow.open(map,marker);
 	});
-	
+
 	/* RESIZE MAP ON TAB CHANGE */
 	$('#qcTabNav li').click(function() {
 		if($('#qcContactMap').is(':visible')) {
