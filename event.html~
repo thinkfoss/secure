@@ -100,7 +100,7 @@
 
 											<!-- ## EMBEDED VIDEO [ YOUTUBE, VIMEO ] ## -->
 											<div class="qcFitVids">
-												<iframe width="640" height="360" src="https://www.youtube.com/embed/fB_MqsJX1C8" frameborder="0" allowfullscreen></iframe>
+												<iframe width="854" height="480" src="https://www.youtube.com/embed/fB_MqsJX1C8" frameborder="0" allowfullscreen></iframe>
 											</div>
 										</li>
 										<li>
