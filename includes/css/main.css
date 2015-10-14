@@ -1490,3 +1490,7 @@ textarea.form-control {
 .reg {
 	padding:10px;
 }
+
+a:hover {
+    font-size:20px;
+}
