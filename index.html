@@ -23,32 +23,13 @@
         <script src="dist/sweetalert.min.js"></script>
         <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 	<!-- ## FULLSCREEN SLIDESHOW ## -->
-	<script type="text/javascript">
-	function slide_fullscreen() {
-	jQuery(function($){
-		$.supersized({
-			// Functionality
-			slide_interval          :   8000,
-			transition              :   1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-			transition_speed	:   1000,
-			// Components
-			slide_links		:   'blank', // Individual links for each slide (Options: false, 'num', 'name', 'blank')
-			progress_bar	:	1,
-			slides 			:   [
-								{	image : 'includes/img/banner2.jpg'
-								},
-								{	image : 'includes/img/banner.jpg'
-								}
-							]
-		});
-	});
-	}
-	window.onload = slide_fullscreen;
-	</script>
+
 </head>
 
-<body>
+<body style="background-color: whitesmoke">
 <link rel="stylesheet" href="includes/css/font-awesome.min.css">
 		<!-- bootstrap.min -->
         <link rel="stylesheet" href="includes/css/bootstrap.min.css">
@@ -123,55 +104,87 @@
 				<li><b>#HACK.</b> As though no one is watching you.</li>
 			</ul>
 		</div>
-
 	</div>
 </header>
 
-<!-- ## HEADER END ## -->
+<div class="row" style="padding-top: 15%;">
+    <div class="page-title-text" style="line-height: 2px; text-align: center;">
+    <h1 style=" line-height: 4px">talk <span style="font-weight: bold">< code ></span>  hack</h1><br>
+    <h2>Welcome to <strong>Amritapuri</strong> Campus</h2>
 
-<nav class="navbar navbar-fixed-bottom" style="background-color: #FF4E00; color: white">
-                    <div class="container" style="padding-top: 10px">
-                        <div class="pull-left fnav">
-                            	<a style="color:white;"class="click">Why Sponsor Us? </a>
-                     </li>
-                        </div>
-                        <div class="pull-right fnav">
-                              <a style="color:white" href = 'http://goo.gl/forms/7ye2Z8JQT2' target="_blank">Call For Papers.</a>
+        <!-- Goals section -->
+        <section id="service">
+            <div class="container" style="padding-top: 40px">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated bounceInLeft">
+                        <div class="service-item wow animated wobble" data-wow-delay="0.9s">
+                            <div class="service-icon">
+                                <i class="fa fa-code fa-5x"></i>
+                            </div>
+                            <h3>Code Contributions</h3>
+                            <p>Contribute to open source projects, or fix your first bug LIVE!</p>
                         </div>
                     </div>
-                </nav>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated zoomIn " data-wow-delay="0.6s">
+                        <div class="service-item wow animated rubberBand" data-wow-delay="0.9s">
+                            <div class="service-icon">
+                                <i class="fa fa-comment fa-3x"></i>
+                            </div>
+                            <h3>Talks</h3>
+                            <p>Attend talks by various Open Source developers and enthusiasts</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item wow animated rubberBand" data-wow-delay="0.9s">
+                            <div class="service-icon">
+                                <i class="fa fa-cogs fa-3x"></i>
+                            </div>
+                            <h3>Workshop</h3>
+                            <p>Code day and night with our carefully crafted Workshops</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated bounceInRight wobble" >
+                        <div class="service-item wow animated wobble" data-wow-delay="0.9s">
+                            <div class="service-icon">
+                                <i class="fa fa-terminal fa-3x"></i>
+                            </div>
+
+                            <h3>Hackathon</h3>
+                            <p> Hack everything you see, showcase it at the end</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</div>
+
+<!-- ## HEADER END ## -->
+<nav class="navbar navbar-fixed-bottom" style="background-color: #FF4E00; color: white">
+<div class="container" style="padding-top: 10px">
+    <div class="pull-left fnav">
+            <a style="color:white;" class="click"><button class="btn btn-primary">Sponsor Us</button></a>
+ </li>
+    </div>
+    <div class="pull-right fnav">
+          <a style="color:white" href = 'http://goo.gl/forms/7ye2Z8JQT2' target="_blank">Call For Papers</a>
+    </div>
+</div>
+</nav>
                 
         
 
 
-<!-- ## FULLSCREEN SLIDES ## -->
-<section id="slideContent">
-
-	<!-- ## SLIDE CONTROLS ## -->
-	<div id="qcHomeSlideControls">
-
-		<!-- ## SLIDE DOT NAV ## -->
-		<ul id="slide-list"></ul>
-
-		<!-- ## PROGRESS BAR ## -->
-		<div id="progress-back" class="load-item">
-			<div id="progress-bar"></div>
-		</div>
-
-	</div>
-
-</section>
-<!-- ## FULLSCREEN SLIDES ## -->
-
-<!-- ## BACKGROUND OVERLAY ## -->
-<section id="qcOverlay">
-	
-</section>
 
 
 <!-- ## LOAD JAVASCRIPTS ## -->
 <script src="includes/js/2.1.1.jquery.min.js" type="text/javascript"></script>
-<script src="includes/js/supersized.3.2.7.min.js" type="text/javascript"></script>
 <script src="includes/js/countdown.js" type="text/javascript"></script>
 <script src="includes/js/jquery.marquee.min.js" type="text/javascript"></script>
 <script src="includes/js/library.js" type="text/javascript"></script>
