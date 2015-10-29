@@ -169,7 +169,7 @@
 <nav class="navbar navbar-fixed-bottom" style="background-color: #ff4e00; color: white">
 <div class="container" style="padding-top: 10px">
     <div class="pull-left fnav">
-            <a style="color:white;" class="click"><button class="btn btn-primary">Sponsor Us</button></a>
+            <a style="color:white;" class="click"><button class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Sponsor Us</button></a>
 		Built with <i class="fa fa-heart"></i> towards Open Source by <a href="http://foss.amrita.ac.in" style="color: black;" target="_blank">FOSS@Amrita</a> and <a href="http://www.thinkfoss.com" target="_blank" style="color: black">ThinkFOSS</a> with CSE Department, Amritapuri
 	</div>
 
@@ -178,7 +178,30 @@
     </div>
 </div>
 </nav>
-                
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel" style="text-align: center">Why Sponsor Us?</h4>
+			</div>
+			<div class="modal-body" style="text-align: justify">
+				Accredited with ‘A’ from NAAC for its excellence and with the grace of Mata Amritanandamayi Devi, Amrita University
+				fosters one of the most active and tech-oriented Open Source student clubs in India - FOSS@Amrita.
+				The club soars with powerful young and enthusiastic minds with the urge to contribute to Open Source and back to the community. Students of the University get encouraged to hack and learn more, and later start companies while maintaining their Academic excellence.
+				<br>
+				Your contribution would be a motivation for loads of students and professionals to get into the free software movement
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<a href="mailto:conf@thinkfoss.com"><button type="button" class="btn btn-primary">Contact Us </button></a>
+			</div>
+		</div>
+	</div>
+</div>
         
 
 
@@ -192,12 +215,12 @@
 <script src="includes/js/init.js" type="text/javascript"></script>
 <script>
 
-document.querySelector('.click').onclick = function(){
-	swal("Why Sponsor Us?", "The Youngest University accredited with ‘A’ from NAAC, with the grace of Mata Amritanandamayi" +
-			" Devi with the, 4th most active FOSS club in India, with young and enthusiastic minds with the urge to contribute " +
-			"to Open Source. Only University in Kerala with 5  GSoC ‘s  in the year 2015 in various open source organisations." +
-			"The hard work and dedication of the youth in contribution to open source apart from the academics  is to be appreciated. " +
-			"Your support and motivation would add to the development of a much stronger FOSS community." +
+document.querySelector().onclick = function(){
+	swal("", "" +
+			" " +
+			"" +
+			" " +
+			"" +
 			"\nMail us at : conf@thinkfoss.com")
 };
 
