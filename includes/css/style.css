@@ -1375,27 +1375,6 @@ ul.qcAddress li a {
 
 /* === 7.3 FITVIDS/VIDEO === */
 
-.qcFitVids {
-    position: relative;
-    margin: 20px 0;
-    background: #fff;
-    z-index: 1;
-}
-.qcFitVids:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,0.1) url('../img/theme/qcVidPlay.png') center center no-repeat;
-    z-index: 9;
-    cursor: pointer;
-}
-.qcFitVids.hide:after {
-    display: none;
-}
-
-
 /* === 7.4 OWL CAROUSEL === */
 
 /* clearfix */
