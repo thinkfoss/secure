@@ -25,7 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
     <link rel="stylesheet" href="includes/font-awesome-4.4.0/css/font-awesome.min.css" type="text/css">
 	<!-- Main Stylesheet -->
-	<link rel="stylesheet" href="includes/css/main.css" type="text/css">
+
 
 	<!-- ## FULLSCREEN SLIDESHOW ## -->
 
@@ -105,53 +105,58 @@
 		</div>
 	</div>
 </header>
+<div class="banner " id="home">
+		<div class="banner_bg" data-stellar-background-ratio="0.2" style="background-image: url(http://themes.wplook.com/conference/wp-content/uploads/sites/9/2014/10/header_bg.jpg); background-position: 50% 50%;"></div></div>
 
-<div class="row" style="padding-top: 15%;">
-    <div class="page-title-text" style="line-height: 2px; text-align: center;">
-    <h1 style=" line-height: 4px">Annual <strong>Open Source</strong> Conference</h1><br>
-    <h2>Welcome to <strong>Amritapuri</strong> Campus</h2>
+<div class="row overlay" style="height:500px">
+    <div class="page-title-text" ">
+
+    <h1 class="title flex-title">
+  <span class="title-main white">Annual <strong>Open Source</strong> Conference</span>
+  <span class="title-note">Welcome to <strong>Amritapuri</strong> Campus.</span>
+    </h1>
         <!-- Goals section -->
         <section id="service">
-            <div class="container" style="padding-top: 40px">
+            <div class="container content">
                 <div class="row">
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated bounceInLeft">
                         <div class="service-item wow animated wobble" data-wow-delay="0.9s">
                             <div class="service-icon">
-                                <i class="fa fa-code fa-5x"></i>
+                                <i class="fa fa-code fa-5x white"></i>
                             </div>
-                            <h3>Code Contributions</h3>
-                            <p>Contribute to open source projects, or fix your first bug LIVE!</p>
+                            <h3 class="white">Code Contributions</h3>
+                            <p class="note">Contribute to open source projects, or fix your first bug LIVE!</p>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated zoomIn " data-wow-delay="0.6s">
                         <div class="service-item wow animated rubberBand" data-wow-delay="0.9s">
                             <div class="service-icon">
-                                <i class="fa fa-comment fa-3x"></i>
+                                <i class="fa fa-comment fa-3x white"></i>
                             </div>
-                            <h3>Talks</h3>
-                            <p>Attend talks by various Open Source developers and enthusiasts</p>
+                            <h3 class="white">Talks</h3>
+                            <p class="note">Attend talks by various Open Source developers and enthusiasts</p>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated zoomIn" data-wow-delay="0.6s">
                         <div class="service-item wow animated rubberBand" data-wow-delay="0.9s">
                             <div class="service-icon">
-                                <i class="fa fa-cogs fa-3x"></i>
+                                <i class="fa fa-cogs fa-3x white"></i>
                             </div>
-                            <h3>Workshop</h3>
-                            <p>Code day and night with our carefully crafted Workshops</p>
+                            <h3 class="white">Workshop</h3>
+                            <p class="note">Code day and night with our carefully crafted Workshops</p>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-6 text-center wow animated bounceInRight wobble" >
                         <div class="service-item wow animated wobble" data-wow-delay="0.9s">
                             <div class="service-icon">
-                                <i class="fa fa-terminal fa-3x"></i>
+                                <i class="fa fa-terminal fa-3x white"></i>
                             </div>
 
-                            <h3>Hackathon</h3>
-                            <p> Hack everything you see, showcase it at the end</p>
+                            <h3 class="white">Hackathon</h3>
+                            <p class="note"> Hack everything you see, showcase it at the end</p>
                         </div>
                     </div>
 
@@ -162,13 +167,14 @@
     </div>
 
 </div>
+</div>
 
 <!-- ## HEADER END ## -->
 <nav class="navbar navbar-fixed-bottom" style="background-color: #ff4e00; color: white">
 <div class="container" style="padding-top: 10px">
     <div class="pull-left fnav">
-            <a style="color:white;" class="click"><button class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Sponsor Us</button></a>
-		Built with <i class="fa fa-heart"></i> towards Open Source by <a href="http://foss.amrita.ac.in" style="color: black;" target="_blank">FOSS@Amrita</a> with Department of CSE, Amritapuri
+            <a style="color:white;" class="click"><button class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Sponsor Us</button></a><span id="textFooter">
+		Built with <i class="fa fa-heart"></i> towards Open Source by <a href="http://foss.amrita.ac.in" style="color: black;" target="_blank">FOSS@Amrita</a> with Department of CSE, Amritapuri</span>
 	</div>
 
     <div class="pull-right fnav">

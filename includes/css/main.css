@@ -1179,6 +1179,19 @@ textarea.form-control {
  ============================================================*/
 
 /*============================================================
+	For Large Desktop
+==============================================================*/
+
+@media (min-width: 1150px) {
+
+    .content {
+    padding-top:4em;
+    }
+
+    
+}
+
+/*============================================================
 	For Small Desktop
 ==============================================================*/
 
@@ -1197,6 +1210,11 @@ textarea.form-control {
     .testimonial-item > div:after {
         bottom: -40px;
     }
+    .content {
+    padding-top:4em;
+    }
+
+    
 }
 
 
@@ -1256,6 +1274,9 @@ textarea.form-control {
     .contact-form {
         margin-bottom: 50px;
     }
+    #textFooter {
+        display:none;
+    }
 }
 
 
@@ -1264,6 +1285,9 @@ textarea.form-control {
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+    #textFooter {
+        display:none;
+    }
 
     body {
         font-size: 14px;
@@ -1411,11 +1435,26 @@ textarea.form-control {
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+    #textFooter {
+        display:none;
+    }
 
     .sec-title h2:after {
         left: 38%;
     }
 
+/* home slider */
+    .caption-content h2 {
+        font-size: 50px;
+    }
+
+    .caption-content p {
+        font-size: 25px;
+    }
+
+    .caption-content strong {
+        font-size: 35px;
+    }
 
 /*about*/
 
@@ -1482,8 +1521,15 @@ textarea.form-control {
 a:hover {
     font-size:20px;
 }
-#qcLogo {
-  
+.content {
+    padding-top:8em;
 }
-#qcLogo img {
+
+
+}
+
+@media (min-width: 300px) and (max-width: 979px) { 
+    #qcHomeHeader, #qcHeader {
+    position:static !important;
+    }
 }
